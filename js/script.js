@@ -190,13 +190,13 @@
 
                  "content": [
 
-                    "<a class='fab fa-facebook-f' href='#'></a>",
+                      "<a class='fab fa-facebook-f' href='https://www.facebook.com/orchidmedcentre'></a>",
 
-                    "<a class='fab fa-twitter' href='#'></a>",
+                    "<a class='fab fa-youtube' href='https://www.youtube.com/@orchidmedcentre'></a>",
 
-                    "<a class='fab fa-linkedin-in' href='#'></a>",
+                    "<a class='fab fa-linkedin-in' href='https://www.linkedin.com/company/orchid-medical-centre'></a>",
 
-                    "<a class='fab fa-instagram' href='#'></a>",
+                    "<a class='fab fa-instagram' href='https://www.instagram.com/orchidmedcentre/'></a>",
 
                  ]
 
