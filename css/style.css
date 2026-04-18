@@ -14981,3 +14981,8 @@ button.btn.btn-block.text-center.second {
     color: white !important;
     border: 5px solid #1b77ba;
 }
+@media (max-width: 767px){
+  .banner-section-one{
+    padding-top:70px;
+  }
+}
