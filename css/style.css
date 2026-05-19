@@ -5516,7 +5516,7 @@ About Section Four
 
 .service-block .inner-box{
   position: relative;
-  padding: 30px 30px;
+  padding: 0px 0px;
   text-align: center;
   border-radius: 15px;
   border-bottom: 3px solid transparent;
@@ -14986,3 +14986,943 @@ button.btn.btn-block.text-center.second {
     padding-top:70px;
   }
 }
+ /*Abhishek */
+    @media only screen and (max-width: 599px){
+    .page-title {
+
+        padding: 62px 0px 0px 0px!important;
+        height: 114px;
+    }
+    .page-title h1{
+
+        font-size: 24px !important;
+    }
+
+    #img-size{
+        height:260px!important;
+    }
+    }
+    .page-title {
+
+    padding: 35px 0PX;
+
+    }
+       /* HERO BACKGROUND */
+
+
+
+
+.hero {
+    position: relative;
+    padding: 100px 0 120px;
+   
+    overflow: hidden;
+}
+
+/* LEFT BLUE MOTION EFFECT */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.15);
+    z-index: 1;
+}
+
+/* GLASS CARD (TOP TEXT BOX) */
+.glass-card {
+    position: relative;
+    z-index: 2;
+    max-width: 820px;
+    margin-bottom: 50px;
+    padding: 45px 50px;
+    border-radius: 20px;
+
+    background: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(255,255,255,0.65));
+    
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+/* HEADING */
+.glass-card h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0d1b2a;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.glass-card p {
+    font-size: 15px;
+    color: #6c7a89;
+    line-height: 1.7;
+}
+
+/* BUTTON */
+.btn-custom {
+    background: #13bfb3;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+}
+.btn-custom:hover {
+    background: #003580;
+    color: #fff;
+}
+
+/* IMAGE CARD */
+.inner-image img {
+    width: 100%;
+    border-radius: 16px;
+    border: 4px solid rgba(255,255,255,0.7);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+/* RIGHT INFO CARD */
+.inner-info .box {
+    padding: 30px;
+    border-radius: 16px;
+
+    background: linear-gradient(135deg, #13bfb3, #b8d4c8);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+.inner-info .box:hover {
+    box-shadow: 0 0.5rem 1.5rem #13bfb3;
+    background: linear-gradient(135deg, #01317d, transparent);
+}
+
+/* TEXT STYLE */
+.inner-info .sub {
+    font-size: 15px;
+    color: #1e2f2a;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inner-info p {
+    font-size: 14px;
+    color: #1e2f2a;
+}
+
+/* PHONE BUTTON */
+.phone-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+/* ICON */
+.phone-btn .icon {
+    width: 35px;
+    height: 35px;
+    background: #4caf7d;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CALL TEXT */
+.phone-btn span {
+    font-weight: 600;
+    color: #2e7d5b;
+}
+
+.phone-btn a {
+    color: #2e7d5b;
+    text-decoration: none;
+}
+
+/* RESPONSIVE FIX */
+@media (max-width: 768px) {
+    .glass-card {
+        padding: 25px;
+    }
+}
+.about-section {
+    background: #f5f7fb;
+    padding: 80px 0;
+}
+
+/* TOP CARDS */
+.info-card {
+    padding: 30px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.info-card h6 {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.info-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.info-card span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* EXACT COLORS */
+.card1 { background: #d8e6f3; }
+.card2 { background: #d7e8e1; }
+.card3 { background: #dedaf0; }
+.card4 { background: #ead9d3; }
+
+/* LEFT TEXT */
+.about-tag {
+    color: #2d6cdf;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #0d1b2a;
+}
+
+.about-section p {
+    color: #6c7a89;
+    font-size: 14px;
+}
+
+.about-btn {
+    background: #13bfb3;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.about-btn:hover {
+    background: #01307e;
+    color: #fff;
+}
+
+.doctor-section {
+    background: #f5f7fb;
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* TITLE */
+.sub-title {
+    font-size: 12px;
+    color: #2d6cdf;
+}
+
+.doctor-section h2 {
+    font-size: 36px;
+    color: #0d1b2a;
+    margin: 10px 0 20px;
+}
+
+/* FILTER BUTTONS */
+.filter-btns {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.filter-btns button {
+    padding: 8px 18px;
+    border-radius: 25px;
+    border: 1px solid #cfd8e3;
+    background: transparent;
+    font-size: 13px;
+}
+
+.filter-btns .active {
+    background: #cfe0f5;
+    border-color: #cfe0f5;
+}
+
+/* DOCTOR CARD */
+.doctor-card {
+    background: #eeeeee;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.doctor-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+}
+
+/* BUTTON */
+.book-btn {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 2px solid #ff4d4d;
+    color: #ff4d4d;
+    padding: 6px 15px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+/* TEXT */
+.doctor-section h5 {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #0d1b2a;
+}
+
+.doctor-section p {
+    font-size: 13px;
+    color: #6c7a89;
+}
+
+
+
+/* CENTER IMAGE */
+.main-img img {
+    width: 100%;
+    border-radius: 20px 20px 80px 20px;
+}
+
+/* REVIEW BOX */
+.review-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #d7e8e1;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.review-box h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+/* RIGHT SIDE */
+.small-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.why-list {
+    list-style: none;
+    padding: 0;
+}
+
+.why-list li {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.why-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #4caf7d;
+}
+.services-section {
+  background: #f4f6f9;
+  border-radius: 20px;
+}
+
+/* Image Card */
+.service-img img {
+  border-radius: 20px;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text Card */
+.service-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: left;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h6 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.service-card a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .service-card {
+    text-align: center;
+  }
+}
+.card-custom {
+      border-radius: 16px;
+      padding: 30px;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+
+    .card-custom:hover {
+      transform: translateY(-8px);
+    }
+
+    .card-icon {
+      font-size: 60px;
+      opacity: 0.15;
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+    }
+
+    .card-title {
+      font-weight: 600;
+      font-size: 22px;
+    }
+
+    .card-text {
+      font-size: 14px;
+      margin: 15px 0;
+    }
+
+    .learn-more {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .learn-more:hover {
+      text-decoration: underline;
+    }
+
+    /* Colors */
+    .bg-green { background: #5FAF8B; }
+    .bg-purple { background: #8B7BD6; }
+    .bg-orange { background: #E07A63; }
+    .doctor-section {
+  background: #f7f9fc;
+}
+
+.btn-pill {
+  border-radius: 30px;
+  padding: 6px 16px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  font-size: 14px;
+  background: white;
+}
+
+.btn-pill.active {
+  background: #dbeafe;
+  border-color: #0d6efd;
+}
+
+.doctor-card {
+  background: #f1f3f6;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.doctor-card img {
+  border-radius: 15px;
+}
+
+.doctor-card:hover {
+  transform: translateY(-8px);
+}
+
+.appointment-btn {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid red;
+  color: red;
+  border-radius: 30px;
+  font-size: 13px;
+  padding: 6px 14px;
+}
+
+.appointment-btn:hover {
+  background: red;
+  color: white;
+}
+
+/* Swiper arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0d6efd;
+}
+.default-btn{
+    display: inline-flex;
+    padding: 10px 20px 10px 55px;
+    justify-content: center;
+    align-items: center;
+    background-color: #13bfb3;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    position: relative;
+    transition: 0.6s;
+}
+.default-btn:hover{
+    background-color: #153b8a;
+}
+
+.marquee-track {
+                    display: inline-block;
+                    white-space: nowrap;
+                    animation: marquee-scroll 25s linear infinite;
+                    padding: 40px;
+                }
+                .animation-text {
+                    display: inline-block;
+                    padding-right: 50px;
+                    line-height: 1;
+                    font-size: 100px;
+                    font-weight: 700;
+                    font-family: "Libre Franklin";
+                    color: #D5DAE5;
+                }
+                .bg-green { background:#63b18d; }
+.bg-purple { background:#8b7bd6; }
+.bg-orange { background:#e07b62; }
+
+.card-custom {
+    padding: 25px;
+    border-radius: 15px;
+    color: #fff;
+    min-height: 100px;
+}
+
+
+
+.faq-section {
+  background: #f8f9fb;
+}
+
+.faq-image img {
+  border-radius: 15px;
+}
+
+.accordion-button {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #000;
+}
+
+.accordion-body {
+  font-size: 14px;
+  color: #555;
+}
+/* Abhishek About Page */
+ .feature_title {
+        display: block;
+        font-size: 21px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: #00307E;
+        text-align: center;
+    }
+
+    .feature_title:hover {
+        color: #FFF;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        #five_block>* {
+            flex-shrink: 0;
+            width: 50%;
+            max-width: 100%;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            margin-top: var(--bs-gutter-y);
+
+        }
+
+        .top-features {
+            padding: 20px;
+        }
+    }
+
+    .blck {
+        text-decoration: none;
+    }
+      .aboutus-icon-box .icon {
+                                border: 2px solid #3a1566;
+                                border-radius: 50px;
+                                float: left;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                min-width: 64px;
+                                min-height: 64px;
+                                transition: 0.5s;
+                                background: #fff;
+                            }
+                            .aboutus-icon-box-icon.icon:hover {
+                                border: 2px solid #006881;
+                                background: #006881;
+                                box-shadow: 0 0.5rem 1.5rem #006881;
+                            }
+                            .aboutus-icon-box .icon i {
+                                font-size: 32px;
+                                color: #3a1566;
+                            }
+                            .aboutus-icon-box-icon:hover{
+                            color: white;
+                            }
+
+                            .aboutus-icon-title
+                            {
+                                font-weight: 700;
+                                /* margin-bottom: 10px; */
+                            }
+                            .aboutus-icon-description {
+                                line-height: 20px;
+                                font-size: 14px;
+                                text-align: left;
+                                margin-bottom: 0;
+                            }
+                              .doctor-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            }
+
+            .doctor-card:hover {
+            box-shadow: 0 0.5rem 1.5rem #3a1566;
+            }
+
+
+            .doctor-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            }
+
+            /* Overlay hidden by default */
+            .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            opacity: 0;
+            transition: 0.4s ease;
+            text-align: center;
+            }
+
+            /* Show on hover */
+            .doctor-card:hover .overlay {
+            opacity: 1;
+            }
+
+            .overlay h3 {
+            margin-top: 80%;
+            font-size: 18px;
+            }
+
+            .overlay p {
+            margin-top: 0px;
+            font-size: 14px;
+            color: white !important;
+            }
+            .coe_text {
+        max-height: 80px;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+    .text-expanded {
+        max-height: none;
+    }
+
+    .coe-read-more-btn {
+        cursor: pointer;
+        color: #007bff;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .services-section {
+            padding: 20px;
+        }
+    }
+    /* Abhishek Media */
+      .search-bar {
+        display: flex;
+        /* Use flexbox for responsive layout */
+        align-items: center;
+        /* Align items vertically */
+        margin-bottom: 20px;
+        /* Adjust margin as needed */
+    }
+
+    .search-bar input[type="text"] {
+        flex: 1;
+        /* Take remaining space */
+        padding: 12px 20px;
+        /* Adjust padding as needed */
+        border: 2px solid #000000;
+        /* Border color */
+        border-radius: 50px;
+        /* Rounded corners */
+        font-size: 16px;
+        /* Font size */
+        transition: border-color 0.3s;
+        /* Smooth transition for border color */
+    }
+
+    .search-bar input[type="text"]:focus {
+        border-color: #000000;
+        /* Change border color on focus */
+    }
+
+    .search-bar input[type="text"]::placeholder {
+        color: #999;
+        /* Placeholder color */
+    }
+
+    .search-bar button {
+        background-color: #007bff;
+        /* Button background color */
+        color: #fff;
+        /* Button text color */
+        border: none;
+        border-radius: 30px;
+        /* Rounded corners */
+        padding: 10px 20px;
+        /* Adjust padding as needed */
+        margin-left: 10px;
+        /* Adjust margin as needed */
+        cursor: pointer;
+        transition: background-color 0.3s;
+        /* Smooth transition for background color */
+    }
+
+    .search-bar button:hover {
+        background-color: #0056b3;
+        /* Darker background color on hover */
+    }
+    /* Abhishek Contact */
+    /* LEFT CARDS */
+.contact-info-card {
+    border-radius: 25px;
+    padding: 90px;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+    height: 30%;
+}
+
+.bg-purple { background: #c9c3df; }
+.bg-pink { background: #e7cfc9; }
+.bg-green { background: #c8ddd6; }
+
+.info-card i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* FORM */
+.contact-form {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 12px 20px;
+    background: #eef1f5;
+    border: none;
+}
+
+textarea.form-control {
+    border-radius: 15px;
+}
+
+.btn-custom {
+    background: #0a1b3d;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.btn-custom:hover {
+    background: #142a66;
+}
+
+.title span {
+    color: #0a1b3d;
+    font-weight: 700;
+}
+
+
+.form-group .form-control {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #E1E6EB;
+    border: 1px solid #E1E6EB;
+    width: 100%;
+    height: 55px;
+    box-shadow: unset;
+    color: #687390;
+    transition: 0.6s;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+/* Abhishek Blogs */
+ .blog-section{
+      padding:60px 0;
+    }
+
+    .blog-card{
+      border-radius:14px;
+      overflow:hidden;
+      background:#fff;
+      transition:0.3s ease;
+      height:100%;
+      box-shadow:0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .blog-card:hover{
+      transform:translateY(-6px);
+      box-shadow:0 8px 22px rgba(0,0,0,0.12);
+    }
+
+    .blog-image{
+      position:relative;
+      overflow:hidden;
+    }
+
+    .blog-image img{
+      width:100%;
+      height:230px;
+      object-fit:cover;
+      transition:0.4s ease;
+    }
+
+    .blog-card:hover .blog-image img{
+      transform:scale(1.05);
+    }
+
+    .blog-date{
+      position:absolute;
+      bottom:0;
+      left:0;
+      background:#12c8c0;
+      color:#fff;
+      padding:8px 16px;
+      font-size:14px;
+      font-weight:500;
+      border-top-right-radius:12px;
+    }
+
+    .blog-content{
+      padding:22px;
+    }
+
+    .blog-title{
+      font-size:24px;
+      font-weight:700;
+      line-height:1.4;
+      color:#003366;
+      margin-bottom:14px;
+    }
+
+    .blog-desc{
+      font-size:15px;
+      color:#555;
+      line-height:1.8;
+      margin-bottom:18px;
+    }
+
+    .read-btn{
+      background:#003366;
+      color:#fff;
+      padding:10px 22px;
+      border-radius:30px;
+      text-decoration:none;
+      display:inline-block;
+      transition:0.3s ease;
+      font-weight:600;
+    }
+
+    .read-btn:hover{
+      background:#12c8c0;
+      color:#fff;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:45px;
+    }
+
+    .section-title h2{
+      font-size:40px;
+      font-weight:700;
+      color:#003366;
+    }
+
+    .section-title p{
+      color:#666;
+      margin-top:10px;
+    }
+
+    @media(max-width:768px){
+      .blog-title{
+        font-size:20px;
+      }
+
+      .blog-image img{
+        height:200px;
+      }
+    }
+    #herorow{
+      margin-left:-50% !important;
+    }

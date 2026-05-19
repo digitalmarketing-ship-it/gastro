@@ -381,16 +381,17 @@
         }
     }
 
-    #report-btn {
-        background-color: #1b77ba;
-        border-radius: 19px 5px 19px 5px;
-        color:white;
-    }
-    #report-btn:hover {
-        background-color: #006881;
-        color: white;
-        border-radius: 19px 5px 19px 5px;
-    }
+   
+            #report-btn {
+                background-color: #1b77ba;
+                border-radius: 19px 5px 19px 5px;
+                color:white;
+            }
+            #report-btn:hover {
+                background-color: #4ab1a7;
+                color: white;
+                border-radius: 19px 5px 19px 5px;
+            }
 </style>
 
 <body>
@@ -1269,13 +1270,12 @@ document.addEventListener("DOMContentLoaded", function () {
     menuInner.addEventListener("click", toggleSubMenu);
 });
 </script>
-
 <!--Page Title-->
 <section class="auto-container"> 
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span> › </span>
-    <span class="current">Alliance</span>
+    <span class="current">Media</span>
   </nav>
 </section>
   <section class="hero" style="
@@ -1286,7 +1286,7 @@ document.addEventListener("DOMContentLoaded", function () {
 ">
         <div class="container-fluid">
             <div class="glass-card">
-                <h2 class="text-dark"><strong>Alliance</strong></h2>
+                <h2 class="text-dark"><strong>Media</strong></h2>
                 <p>Orchid Medical Centre, a state-of-the-art hospital located in the heart of Ranchi, Jharkhand, is committed to delivering exceptional medical care and treatment services. We take pride in our recognition for excellence and accreditation by NABH, NABL, and NABH for Nursing Excellence. Our premier facility provides high-quality medical care and treatment options.</p>
                 <button class="btn btn-custom" >Learn More</button>
             </div>
@@ -1315,163 +1315,54 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         </div>
     </section>
+<section class="gallery-section mt-5">
+  <div class="container">
 
+    <h2 class="gallery-title">Media</h2>
 
+    <div class="row g-4">
 
-
-
-
-
-
-<style>
-    .search-bar {
-        display: flex;
-        /* Use flexbox for responsive layout */
-        align-items: center;
-        /* Align items vertically */
-        margin-bottom: 20px;
-        /* Adjust margin as needed */
-    }
-
-    .search-bar input[type="text"] {
-        flex: 1;
-        /* Take remaining space */
-        padding: 12px 20px;
-        /* Adjust padding as needed */
-        border: 2px solid #000000;
-        /* Border color */
-        border-radius: 50px;
-        /* Rounded corners */
-        font-size: 16px;
-        /* Font size */
-        transition: border-color 0.3s;
-        /* Smooth transition for border color */
-    }
-
-    .search-bar input[type="text"]:focus {
-        border-color: #000000;
-        /* Change border color on focus */
-    }
-
-    .search-bar input[type="text"]::placeholder {
-        color: #999;
-        /* Placeholder color */
-    }
-
-    .search-bar button {
-        background-color: #007bff;
-        /* Button background color */
-        color: #fff;
-        /* Button text color */
-        border: none;
-        border-radius: 30px;
-        /* Rounded corners */
-        padding: 10px 20px;
-        /* Adjust padding as needed */
-        margin-left: 10px;
-        /* Adjust margin as needed */
-        cursor: pointer;
-        transition: background-color 0.3s;
-        /* Smooth transition for background color */
-    }
-
-    .search-bar button:hover {
-        background-color: #0056b3;
-        /* Darker background color on hover */
-    }
-</style>
-
-<style>
-    @media only screen and (max-width: 600px) {
-        .portfolio-section {
-            padding: 20px !important;
-
-        }
-    }
-</style>
-
-
-
-<!-- Portfolio Section -->
-<section class="portfolio-section alternate">
-    <div class="auto-container">
-        <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <!-- Search Bar -->
-                <div class="search-bar">
-                    <input type="text" id="searchInput" placeholder="Search for alliance name...">
-
-                </div>
-            </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop" alt="">
         </div>
+      </div>
 
-        <!--MixitUp Galery-->
-        <div class="row mid-spacing" id="portfolioBlocks">
-                    <div class="portfolio-block all mix detal-care dental col-lg-3 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img src="https://www.orchidmedcentre.com/admin/alliances/image/65cef1bf0bd13_ALLIANCES%20(1).webp" alt="<?= $name ?>"></figure>
-                            <div class="overlay">
-                                <!-- <a href="" class="icon-box lightbox-image" data-fancybox="gallery"><span class="fa fa-expand"></span></a> -->
-                                <div class="title-box">
-                                    <h2 style="font-size: 20px;line-height: 1.2em;color: #ffffff;font-weight: 600;display: block;margin-bottom: 0px;"><?= $name ?></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-block all mix detal-care dental col-lg-3 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img src="https://www.orchidmedcentre.com/admin/alliances/image/664b328a49020_65cf4c133736b_2bajaj.webp" alt="<?= $name ?>"></figure>
-                            <div class="overlay">
-                                <!-- <a href="" class="icon-box lightbox-image" data-fancybox="gallery"><span class="fa fa-expand"></span></a> -->
-                                <div class="title-box">
-                                    <h2 style="font-size: 20px;line-height: 1.2em;color: #ffffff;font-weight: 600;display: block;margin-bottom: 0px;"><?= $name ?></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-block all mix detal-care dental col-lg-3 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img src="https://www.orchidmedcentre.com/admin/alliances/image/65cf51cea99d5_3.webp" alt="<?= $name ?>"></figure>
-                            <div class="overlay">
-                                <!-- <a href="" class="icon-box lightbox-image" data-fancybox="gallery"><span class="fa fa-expand"></span></a> -->
-                                <div class="title-box">
-                                    <h2 style="font-size: 20px;line-height: 1.2em;color: #ffffff;font-weight: 600;display: block;margin-bottom: 0px;"><?= $name ?></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-block all mix detal-care dental col-lg-3 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img src="https://www.orchidmedcentre.com/admin/alliances/image/65cf51e3154b6_4.webp" alt="<?= $name ?>"></figure>
-                            <div class="overlay">
-                                <!-- <a href="" class="icon-box lightbox-image" data-fancybox="gallery"><span class="fa fa-expand"></span></a> -->
-                                <div class="title-box">
-                                    <h2 style="font-size: 20px;line-height: 1.2em;color: #ffffff;font-weight: 600;display: block;margin-bottom: 0px;"><?= $name ?></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-block all mix detal-care dental col-lg-3 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img src="https://www.orchidmedcentre.com/admin/alliances/image/65cf527bd047c_10.webp" alt="<?= $name ?>"></figure>
-                            <div class="overlay">
-                                <!-- <a href="" class="icon-box lightbox-image" data-fancybox="gallery"><span class="fa fa-expand"></span></a> -->
-                                <div class="title-box">
-                                    <h2 style="font-size: 20px;line-height: 1.2em;color: #ffffff;font-weight: 600;display: block;margin-bottom: 0px;"><?= $name ?></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=1200&auto=format&fit=crop" alt="">
         </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1200&auto=format&fit=crop" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1580281657527-47d7f2d8d7b3?q=80&w=1200&auto=format&fit=crop" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1200&auto=format&fit=crop" alt="">
+        </div>
+      </div>
+
     </div>
-</section>
+
+  </div>
+
+
 <!-- End Portfolio Section -->
 
 
@@ -1805,10 +1696,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <!-- Main Footer -->
-<footer class="main-footer">
+<footer class="main-footer mt-5">
     <!--Widgets Section-->
     <div class="widgets-section" style="background-image: url(/images/background/7.webp);">
-        <div class="auto-container">
+        <div class="container">
             <div class="row">
                 <!--Big Column-->
                 <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
@@ -1837,7 +1728,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!--Footer Column-->
                         <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget">
-                                <div class="widget-title">Quick Links</div>
+                                <div class="widget-title" style="margin-left: 63px;">Quick Links</div>
                                 <ul class="user-links" style="margin-left:-30px">
                                     <li><a href="index.html">Home</a></li>
 
@@ -1866,7 +1757,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <!--Footer Column-->
                             <div class="footer-widget contact-widget">
-                                <div class="widget-title" style="margin-left: 63px;">Contact Us</div>
+                                <div class="widget-title">Contact Us</div>
                                 <!--Footer Column-->
                                 <div class="widget-content">
                                     <ul class="contact-list" style="margin-left:-30px">
@@ -1932,7 +1823,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="inner-container clearfix">
                 <div class="footer-nav">
                     <ul class="clearfix">
-                        <li><a href="https://www.orchidmedcentre.com/sitemap/">Sitemap</a></li>
+                        <li><a href="sitemap.html">Sitemap</a></li>
                         <li><a href="https://www.orchidmedcentre.com/privacy_policy/">Privacy Policy</a></li>
                         <li><a href="https://www.orchidmedcentre.com/contact_us/contact/">Contact</a></li>
                         <li><a href="https://www.orchidmedcentre.com/legal_compliance/">Legal & Compliance</a></li>
@@ -2210,4 +2101,3 @@ document.addEventListener("DOMContentLoaded", function () {
 </body>
 
 </html>
-    
