@@ -1107,8 +1107,17 @@
 	}
 
 	.service-block .inner-box{
-		padding: 30px 20px;
+		/* padding: 30px 20px; */
+		
 	}
+	.service-block{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+.image-1{
+	margin-top: 20px;
+}
 
 	.about-section .video-link{
 		left: 0;
