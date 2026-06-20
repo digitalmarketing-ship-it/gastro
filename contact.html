@@ -408,209 +408,12 @@
 
             <!-- Main Header-->
             <header class="main-header header-style-one">
-                <style>
-                    .second {
-                        font-weight: 600;
-                        background-color: #3a1566;
-                        border-color: #3a1566;
-                        color:#fff !important;
-
-                    }
-
-                    .second:hover {
-                        background-color: #3a1566;
-
-                    }
-
-                    .custom_card_header {
-                        padding: 0;
-                        height: 44px;
-                    }
-
-                    .btn-check:focus+.btn,
-                    .btn:focus {
-                        box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 0%) !important;
-                    }
-
-                    .btn {
-                        display: block !important;
-                    }
-
-                    /* Media query for screens with a maximum width of 768px (typical for mobile devices) */
-                    @media (max-width: 768px) {
-                        .custom_card_header {
-                            height: 0%;
-                            padding: 0;
-                        }
-
-                        #sec_opinion {
-                            display: none;
-                        }
-                    }
-
-                    #sec_opinion {
-                        border: 1px solid #3a1566 !important;
-                        border-radius: 0px 0px 75px 75px;
-                    }
-
-                    .li-name a {
-                        color: black !important;
-                    }
-
-                    .li-name a:hover {
-                        color: #13bfb3 !important;
-                    }
-
-                    .active-row {
-                        background-color: #3a1566;
-                        /* Change this to the desired active color */
-                    }
-                </style>
-
-                <!-- ======Top Header====== -->
-                <div class="row" id="accordionRow">
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4">
-                        <div class="accordion " id="accordionExample">
-                            <div class="card" id="sec_opinion">
-                                <div class="card-header custom_card_header" id="heading" style="background-color:#3a1566;">
-                                    <div class="mb-0">
-                                        <button class="btn  btn-block text-center second" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="color:#072F66;">
-                                            Get free second opinion from our specialists.<i class="fas fa-chevron-down"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 text-center"></div>
+               <div class="row" style="background-color: #1b77ba;color:#4cb4ab">
+                <div class="col-md-5"></div>
+                <div class="col-md-7" style="font-size:20px;font-weight:500;">
+                    <span><i class="flaticon-hospital-1"></i>H.B. Road, Ranchi, Jharkhand 834001 | <i class="flaticon-back-in-time"></i>For Enquiry & Details: <a href="tel:9031669888" style="color:#4cb4ab"> 9031669888</a> | <i class="flaticon-back-in-time"></i>Emergency Number: <a href="tel:9117100100" style="color:#4cb4ab;"> 9117100100</a> | Email : ohig@gmail.com</span>
                 </div>
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        var accordionRow = document.getElementById('accordionRow');
-
-                        accordionRow.addEventListener('click', function() {
-                            // Toggle the 'active-row' class when the row is clicked
-                            this.classList.toggle('active-row');
-                        });
-                    });
-
-
-                    document.addEventListener('DOMContentLoaded', function() {
-                        var accordionButtons = document.querySelectorAll('.second');
-                        accordionButtons.forEach(function(button) {
-                            button.addEventListener('click', function() {
-                                var icon = this.querySelector('i');
-
-                                // Toggle the icon class based on the accordion state
-                                if (this.getAttribute('aria-expanded') === 'true') {
-                                    icon.classList.remove('fa-circle-chevron-down');
-                                    icon.classList.add('fa-circle-chevron-up');
-                                } else {
-                                    icon.classList.remove('fa-circle-chevron-up');
-                                    icon.classList.add('fa-circle-chevron-down');
-                                }
-                            });
-                        });
-                    });
-                </script>
-
-                <!-- <div class="row mt-3"> -->
-                <div class="row ">
-                    <div class="">
-                        <div class="col-sm-12">
-                            <div class="collapse" id="collapseExample">
-                                <div class="card card-body" style="background-color: #3a1566;width: 103%;left:-15px; border-top: #3a1566;">
-                                    <form action="" class="secondOpinionForm py-lg-4 py-3 col-lg-11 mx-auto px-10 px-lg-20 mb-0 row g-3" method="post" enctype="multipart/form-data" id="opinionform">
-
-                                        <div class="col-sm-4">
-                                            <input type="text" name="name" class="form-control" placeholder="Enter Name" />
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <input type="text" name="number" class=" form-control  " placeholder="Enter mobile number" />
-                                        </div>
-
-                                        <div class="col-sm-4">
-                                            <select name="preffered_time" class=" form-control">
-                                                <option value="" disabled selected>Preferred Time To Call</option>
-                                                <option value="Morning">Morning</option>
-                                                <option value="Afternoon"> After Noon</option>
-                                                <option value="Evening">Evening</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="col-sm-1">
-                                        </div>
-
-                                        <div class="col-sm-7">
-                                            <input type="file" name="file" class=" form-control  " placeholder="Upload Document" />
-                                        </div>
-
-                                        <div class="col-sm-4">
-                                            <button type="button" class="btn" onclick="submitOpinionForm()" id="submit" name="header_submit" style="background-color:#072F66; color:white;">Submit</button>
-                                        </div>
-
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <script>
-                    function submitOpinionForm() {
-                        // Prevent form submission
-                        event.preventDefault();
-
-                        // Get form input values
-                        const name = document.getElementsByName('name')[0].value;
-                        const number = document.getElementsByName('number')[0].value;
-                        const file = document.getElementsByName('file')[0].files[0];
-                        const preferredTime = document.getElementsByName('preffered_time')[0].value;
-
-                        // Check if any field is blank
-                        if (name.trim() === '') {
-                            alert("Please enter your name");
-                            return;
-                        } else if (number.trim() === '') {
-                            alert("Please enter your mobile number");
-                            return;
-                        } else if (preferredTime === '') {
-                            alert("Please select a preferred time to call");
-                            return;
-                        } else if (file === undefined) {
-                            alert("Please upload a file");
-                            return;
-                        }
-
-                        // Check if the number is valid
-                        const phonePattern = /^\d+$/; // Regular expression for numbers only
-                        if (!phonePattern.test(number)) {
-                            alert("Please enter a valid phone number");
-                            return;
-                        }
-
-                        // If all validations pass, proceed with form submission
-                        const formData = new FormData(document.getElementById('opinionform'));
-
-                        // Make an AJAX request to submit the form data
-                        jQuery.ajax({
-                            url: "/opinion_ajax.php",
-                            data: formData,
-                            type: "POST",
-                            contentType: false,
-                            processData: false,
-                            success: function(data) {
-                                alert("Submitted successfully !");
-                                location.reload();
-                            },
-                            error: function(xhr, status, error) {
-                                alert('Error');
-                            }
-                        });
-                    }
-                </script>
+            </div>
 
                 <!-- Header top -->
                 <div class="header-top">
@@ -618,10 +421,7 @@
                         <div class="inner-container">
                         
                             <div class="top-left" style="margin-left: 215px;">
-                                <ul class="contact-list clearfix">
-                                    <li><i class="flaticon-hospital-1"></i>H.B. Road, Ranchi, Jharkhand 834001 </li>
-                                    <li><i class="flaticon-back-in-time"></i>Emergency Number: <a href="tel:9117100100"> 9117100100</a></li>
-                                </ul>
+                                
                             </div>
 
 
@@ -718,7 +518,7 @@
 
                     </div>
                     <!-- <div class="auto-container " style=" max-width: 1200px;"> -->
-                    <div class="auto-container">
+                    <div class="container">
                         <!-- Main box -->
                         <div class="main-box" style="right:1px;">
                             <!--Nav Box-->
@@ -1008,9 +808,12 @@
                                         <li><a href="media.html">Media</a></li>
                                         <li><a href="blogs.html">Blogs</a></li>
                                         <li><a href="contact.html">Contact Us</a></li>
-                                        <li class="hide-on-scroll">
-                                            <a href="appointment/index.php" target="_blank" class="btn report-btn" id="report-btn">Book Appointment</a>
-                                        </li>
+                                          <li class="hide-on-scroll">
+                                        <a href="appointment.html" target="_blank" class="btn report-btn" id="report-btn">Book Appointment<i class="fa-solid fa-download" style="font-size: 15px; margin-left:3px;"></i></a>
+                                    </li>
+                                    <li class="hide-on-scroll">
+                                        <a href="https://wa.me/919031669888" target="_blank" class="btn report-btn" id="report-btn">Video Consultation<i class="fa-solid fa-download" style="font-size: 15px; margin-left:3px;"></i></a>
+                                    </li>
                                     </ul>
                                 </nav>
                                 <!-- Main Menu End-->
@@ -1023,7 +826,7 @@
                     <div class="auto-container">
                         <div class="main-box">
                             <div class="logo-box">
-                                <div class="logo"><a href="/"><img src="image_website/gastro- logo.png" alt="Orchid Samagati" style="width: 132px;" loading="lazy"></a></div>
+                                <div class="logo"><a href="/"><img src="image_website/gastro-logo.png" alt="Orchid Samagati" style="width: 132px;" loading="lazy"></a></div>
                             </div>
                             <!--Keep This Empty / Menu will come through Javascript-->
                         </div>
@@ -1853,10 +1656,15 @@ formData.append('message', message);
 
                                         </li>
 
+                                         <li class="mt-5">
+                                            <span class="icon flaticon-call-1"></span>
+                                            <div class="text">For Enquiry & Details: <a href="tel:9031669888"><strong>9031669888</strong></a></div>
+                                        </li>
                                         <li class="mt-5">
                                             <span class="icon flaticon-call-1"></span>
-                                            <div class="text"><a href="tel:9117100100"><strong>9117100100</strong></a></div>
+                                            <div class="text">For Emergeny: <a href="tel:9117100100"><strong>9117100100</strong></a></div>
                                         </li>
+
 
                                         <li class="mt-5">
                                             <span class="icon flaticon-email"></span>
